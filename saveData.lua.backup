@@ -2,7 +2,7 @@ GameData = {["save_version"] = 1, ["language"] = 11, ["network"] = 6, ["networkM
 },
 
 
-["current"] = {["score"] = 4367, ["time"] = 3085367.250000, ["kills"] = 46, ["damage"] = 0, ["failures"] = 0, ["difficulty"] = 0, ["victory"] = false, ["islands"] = 1, ["squad"] = 5, 
+["current"] = {["score"] = 4367, ["time"] = 3085350.250000, ["kills"] = 46, ["damage"] = 0, ["failures"] = 0, ["difficulty"] = 0, ["victory"] = false, ["islands"] = 1, ["squad"] = 5, 
 ["mechs"] = {"FlameMech", "IgniteMech", "TeleMech", },
 ["colors"] = {5, 5, 5, },
 ["weapons"] = {"Prime_Flamethrower_A", "Passive_FlameImmune", "Ranged_Ignite_A", "", "Science_Swap_A", "", },
@@ -12,7 +12,7 @@ GameData = {["save_version"] = 1, ["language"] = 11, ["network"] = 6, ["networkM
 },
 ["pilot2"] = {["id"] = "Pilot_Medic", ["name"] = "아이작 존스", ["name_id"] = "Pilot_Medic_Name", ["renamed"] = false, ["skill1"] = 0, ["skill2"] = 1, ["exp"] = 11, ["level"] = 1, ["travel"] = 0, ["final"] = 0, ["starting"] = false, },
 },
-["current_squad"] = 5, ["undosave"] = true, }
+["current_squad"] = 5, }
  
 
 RegionData = {
