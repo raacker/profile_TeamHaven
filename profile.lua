@@ -1,22 +1,32 @@
 Profile = {
 ["version"] = 1, ["visible_name"] = "TeamHaven", ["opening"] = true, ["hide_tutorials"] = true, 
-["last_squad"] = 5, ["last_pilot"] = 1, 
-["timer"] = 22290720.000000, 
+["last_squad"] = 0, ["last_pilot"] = 1, 
+["timer"] = 23525208.000000, 
 ["unlocked_island"] = 4, 
 
 ["tutorials"] = {},
 
 ["squads"] = {true, false, false, false, false, true, true, false, true, true, false, false, false, false, false, false, },
 
-["pilots"] = {"Pilot_Original", "Pilot_Miner", "Pilot_Medic", "Pilot_Aquatic", "Pilot_Youth", },
+["pilots"] = {"Pilot_Original", "Pilot_Miner", "Pilot_Medic", "Pilot_Aquatic", "Pilot_Youth", "Pilot_Recycler", },
 
 
-["achievements"] = {["Global_Meta_Unlock"] = 1, ["Global_Challenge_Power"] = 0, ["Archive_A_Victory_4"] = 1, ["Global_Island_Building"] = 0, ["Global_Victory_Any"] = 1, ["Global_Pilot_Three"] = 1, ["Global_Meta_Reputation"] = 0, ["Rust_B_2"] = 0, ["Global_Island_Perfect"] = 1, ["Global_Pilot_Max"] = 1, ["Archive_A_3"] = 1, ["Global_Island_Rep"] = 0, ["Archive_A_1"] = 1, ["Rust_B_Victory_4"] = 0, },
+["achievements"] = {["Global_Meta_Unlock"] = 1, ["Archive_A_Victory_4"] = 1, ["Global_Victory_Any"] = 1, ["Global_Meta_Reputation"] = 1, ["Global_Island_Building"] = 0, ["Archive_A_1"] = 1, ["Global_Pilot_Three"] = 1, ["Rust_B_Victory_4"] = 0, ["Global_Island_Perfect"] = 1, ["Global_Pilot_Max"] = 1, ["Rust_B_2"] = 0, ["Archive_A_3"] = 1, ["Global_Island_Rep"] = 0, ["Global_Challenge_Power"] = 0, ["Global_Pilot_Unlocked"] = 1, },
 
-["trackers"] = {["Global_Pilot_Three"] = 3, ["Global_Victory_Any"] = 1, ["Global_Challenge_New"] = 7, ["Global_Meta_Perfect"] = 4, ["Global_Pilot_Final"] = 1, ["Global_Challenge_Mods"] = 120, ["Global_Island_Mechs"] = 3, ["Global_Meta_Unlock"] = 1, ["Global_Victory_Islands"] = 1, ["Global_Meta_Reputation"] = 51, ["Global_Challenge_Pods"] = 6, ["Global_Pilot_Max"] = 1, ["Global_Meta_Rescue"] = 39801, ["Global_Pilot_Unlocked"] = 5, ["Global_Victory_Complete"] = 2, ["Global_Challenge_Perfect"] = 2, ["Rust_B_3"] = 2, ["Global_Victory_Four"] = 2, ["Global_Meta_Block"] = 81, },
+["trackers"] = {["Global_Challenge_New"] = 2, ["Global_Pilot_Three"] = 3, ["Global_Meta_Perfect"] = 5, ["Global_Pilot_Final"] = 1, ["Global_Challenge_Mods"] = 6, ["Global_Pilot_Max"] = 1, ["Global_Victory_Any"] = 1, ["Global_Challenge_Pods"] = 1, ["Global_Meta_Rescue"] = 44598, ["Global_Pilot_Unlocked"] = 6, ["Global_Victory_Complete"] = 2, ["Global_Victory_Four"] = 2, ["Global_Meta_Unlock"] = 1, ["Global_Victory_Islands"] = 1, ["Global_Meta_Reputation"] = 54, ["Global_Meta_Block"] = 88, },
 
 
-["stat_tracker"] = {["games"] = 7, ["travelers"] = 4, ["kills"] = 364, ["islands"] = 10, ["pods"] = 13, ["total"] = 39801, ["victories"] = {0, 0, 2, },
+["stat_tracker"] = {["games"] = 7, ["travelers"] = 4, ["kills"] = 400, ["islands"] = 11, ["pods"] = 14, ["total"] = 44598, ["victories"] = {0, 0, 2, },
+
+
+["current"] = {["score"] = 4797, ["time"] = 1228996.000000, ["kills"] = 36, ["damage"] = 0, ["failures"] = 0, ["difficulty"] = 1, ["victory"] = false, ["islands"] = 1, ["squad"] = 0, 
+["mechs"] = {"PunchMech", "TankMech", "ArtiMech", },
+["colors"] = {0, 0, 0, },
+["weapons"] = {"Prime_Punchmech_A", "", "Brute_Tankmech", "", "Ranged_Artillerymech", "", },
+["pilot0"] = {["id"] = "Pilot_Original", ["name"] = "Ralph Karlsson", ["name_id"] = "Pilot_Original_Name", ["renamed"] = false, ["skill1"] = 3, ["skill2"] = 2, ["exp"] = 39, ["level"] = 1, ["travel"] = 0, ["final"] = 0, ["starting"] = true, },
+["pilot1"] = {["id"] = "Pilot_Archive", ["name"] = "Anton Ferry", ["name_id"] = "", ["renamed"] = false, ["skill1"] = 0, ["skill2"] = 2, ["exp"] = 1, ["level"] = 1, ["travel"] = 0, ["final"] = 0, ["starting"] = true, },
+["pilot2"] = {["id"] = "Pilot_Detritus", ["name"] = "Tatiana Kirk", ["name_id"] = "", ["renamed"] = false, ["skill1"] = 0, ["skill2"] = 2, ["exp"] = 16, ["level"] = 0, ["travel"] = 0, ["final"] = 0, ["starting"] = true, },
+},
 
 ["score0"] = {["score"] = 18610, ["time"] = 7233729.000000, ["kills"] = 160, ["damage"] = 0, ["failures"] = 5, ["difficulty"] = 1, ["victory"] = true, ["islands"] = 4, ["squad"] = 0, 
 ["mechs"] = {"PunchMech", "TankMech", "ArtiMech", },
@@ -28,7 +38,7 @@ Profile = {
 ["pilot2"] = {["id"] = "Pilot_Detritus", ["name"] = "Sam Volkov", ["name_id"] = "", ["renamed"] = false, ["skill1"] = 2, ["skill2"] = 3, ["exp"] = 50, ["level"] = 2, ["travel"] = 1, ["final"] = 1, ["starting"] = true, ["last_end"] = 2, },
 },
 
-["score1"] = {["score"] = 9731, ["time"] = 7756410.500000, ["kills"] = 128, ["damage"] = 0, ["failures"] = 2, ["difficulty"] = 0, ["victory"] = true, ["islands"] = 4, ["squad"] = 5, 
+["score1"] = {["score"] = 9731, ["time"] = 7756410.000000, ["kills"] = 128, ["damage"] = 0, ["failures"] = 2, ["difficulty"] = 0, ["victory"] = true, ["islands"] = 4, ["squad"] = 5, 
 ["mechs"] = {"FlameMech", "IgniteMech", "TeleMech", },
 ["colors"] = {5, 5, 5, },
 ["weapons"] = {"Prime_Flamethrower_AB", "Prime_Spear_AB", "Ranged_Ignite_AB", "", "Science_Swap_AB", "Passive_FlameImmune", },
@@ -88,7 +98,7 @@ Profile = {
 
 
 ["squad0"] = {["victories"] = {0, 0, 1, },
-["games"] = 4, ["score"] = 18610, ["kills"] = 231, },
+["games"] = 4, ["score"] = 18610, ["kills"] = 268, },
 
 ["squad1"] = {["victories"] = {0, 0, 0, },
 ["games"] = 0, ["score"] = 0, ["kills"] = 0, },
@@ -137,23 +147,23 @@ Profile = {
 
 ["pilots"] = {
 
-["Pilot_Archive"] = {["battles"] = 8, ["kills"] = 7, ["deaths"] = 1, },
+["Pilot_Archive"] = {["battles"] = 13, ["kills"] = 19, ["deaths"] = 1, },
 
 ["Pilot_Rust"] = {["battles"] = 26, ["kills"] = 35, ["deaths"] = 1, },
+
+["Pilot_Original"] = {["battles"] = 15, ["kills"] = 31, ["deaths"] = 1, },
+
+["Pilot_Miner"] = {["battles"] = 48, ["kills"] = 100, ["travels"] = 3, },
+
+["Pilot_Artificial"] = {["battles"] = 7, ["kills"] = 7, },
+
+["Pilot_Detritus"] = {["battles"] = 46, ["kills"] = 55, ["deaths"] = 1, ["travels"] = 1, },
 
 ["Mary"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 53, },
 
 ["Ana Prieto"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 44, },
 
 ["Pilot_Aquatic"] = {["battles"] = 17, ["kills"] = 32, },
-
-["Pilot_Detritus"] = {["battles"] = 41, ["kills"] = 49, ["travels"] = 1, },
-
-["Pilot_Original"] = {["battles"] = 10, ["kills"] = 15, ["deaths"] = 1, },
-
-["Pilot_Miner"] = {["battles"] = 48, ["kills"] = 100, ["travels"] = 3, },
-
-["Pilot_Artificial"] = {["battles"] = 7, ["kills"] = 7, },
 
 ["Peter Romano"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 38, },
 
@@ -162,6 +172,8 @@ Profile = {
 ["Ralph Karlsson"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 30, },
 
 ["Pilot_Pinnacle"] = {["battles"] = 18, ["kills"] = 19, ["deaths"] = 1, },
+
+["Tatiana Kirk"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 136, },
 },
 
 ["enemies"] = {
@@ -174,13 +186,13 @@ Profile = {
 
 ["Centipede1"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 4, },
 
-["Jelly_Boss"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 2, },
+["Jelly_Boss"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 3, },
 
 ["Beetle1"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 5, },
 
 ["Digger2"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 2, },
 
-["Leaper1"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 17, ["damage"] = 2, },
+["Leaper1"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 27, ["damage"] = 2, },
 
 ["FireflyBoss"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 3, },
 
@@ -196,13 +208,11 @@ Profile = {
 
 ["ArtiMech"] = {["battles"] = 0, ["kills"] = 0, ["damage"] = 2, },
 
-["Firefly1"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 52, ["damage"] = 5, },
+["Firefly1"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 65, ["damage"] = 6, },
 
 ["WebbEgg1"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 21, },
 
 ["Jelly_Lava1"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 2, },
-
-["Spider2"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 3, },
 
 ["BeetleBoss"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 4, },
 
@@ -220,13 +230,13 @@ Profile = {
 
 ["Snowtank1"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 1, },
 
-["Jelly_Health1"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 14, },
+["Jelly_Health1"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 19, },
 
 ["Blob1"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 5, },
 
 ["Jelly_Regen1"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 5, },
 
-["ScorpionBoss"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 1, },
+["Spider2"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 3, },
 
 ["Crab1"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 4, },
 
@@ -234,9 +244,11 @@ Profile = {
 
 ["TankMech"] = {["battles"] = 0, ["kills"] = 0, ["damage"] = 1, },
 
+["ScorpionBoss"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 1, },
+
 ["AcidVat"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 4, },
 
-["Scarab1"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 46, ["damage"] = 3, },
+["Scarab1"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 54, ["damage"] = 4, },
 
 ["Crab2"] = {["battles"] = 0, ["kills"] = 0, ["deaths"] = 4, },
 
